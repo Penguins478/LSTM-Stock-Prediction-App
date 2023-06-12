@@ -1,1 +1,1 @@
-# LSTM-Stock-Trading-App
+# LSTM-Stock-Prediction-App
