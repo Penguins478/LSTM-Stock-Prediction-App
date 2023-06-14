@@ -5,7 +5,6 @@ from pandas_datareader import data as pdr
 from keras.models import load_model
 import streamlit as st
 from sklearn.preprocessing import MinMaxScaler
-
 import yfinance as yfin
 
 
