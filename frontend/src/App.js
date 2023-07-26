@@ -29,7 +29,7 @@ const App = () => {
         />
         <button onClick={handlePrediction}>Generate Prediction</button>
       </div>
-      <div><p>Please wait a bit for the servers to process your request after you choose to generate a prediction.</p></div>
+      <div><p>Please wait a bit for the server to process your request after you choose to generate a prediction.</p></div>
       {summaryData && (
         <div>
           <h2>Summary Statistics</h2>
