@@ -12,7 +12,7 @@ yfin.pdr_override()
 
 st.title('Stock Trend Prediction')
 
-
+file = open("data.txt", "a")
 
 user_input = st.text_input('Enter Stock Ticker', 'AAPL')
 
@@ -80,6 +80,17 @@ scaler = scaler.scale_
 scale_factor = 1/scaler[0]
 y_predicted = y_predicted * scale_factor
 y_test = y_test * scale_factor
+
+
+
+total = 0
+len = min(len(y_predicted), len(y_test))
+for i in range(0, len):
+    total += abs(float(y_predicted[i]) / float(y_test[i]))
+error = 100 - ((total / len - 1) * 100)
+
+file.write(str(y_symbols) + "  " + str(error) + "\n")
+
 
 # Final Graph
 
