@@ -2,6 +2,8 @@
 
 Full stack web application that uses LSTMs (Keras) to predict the price of publicly traded stocks based on their daily closing prices.
 
+Integrated NLP techniques such as sentiment analysis and text summarization using tf-idf for access to quick trading insights.
+
 Created using React and Django.
 
 Video Demonstration:
