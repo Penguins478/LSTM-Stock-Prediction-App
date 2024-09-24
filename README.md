@@ -4,6 +4,8 @@ Full stack web application that uses LSTMs (Keras) to predict the price of publi
 
 Integrated NLP techniques such as sentiment analysis and text summarization using tf-idf for access to quick trading insights.
 
+Just input the link of the website you want to analyze and this program will automatically scrape it using BeautifulSoup. After BeautifulSoup retrieves all of the plaintext, the natural language processing begins.
+
 Created using React and Django.
 
 Video Demonstration:
